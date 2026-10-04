@@ -1,0 +1,3 @@
+*
+repo.spine.json filter=git-crypt diff=git-crypt
+timeline.json filter=git-crypt diff=git-crypt
