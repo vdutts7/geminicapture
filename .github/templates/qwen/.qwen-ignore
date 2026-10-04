@@ -1,0 +1,7 @@
+# Qwen CLI Configuration
+
+## Ignore Patterns
+node_modules/
+dist/
+.env
+*.log

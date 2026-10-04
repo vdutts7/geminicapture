@@ -1,0 +1,11 @@
+language: en-US
+reviews:
+  auto_review:
+    enabled: true
+  path_instructions:
+    - path: "src/**/*.ts"
+      instructions: "Review for TypeScript best practices"
+    - path: "**/*.test.ts"
+      instructions: "Ensure tests are comprehensive"
+chat:
+  auto_reply: true

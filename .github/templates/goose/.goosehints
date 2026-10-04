@@ -1,0 +1,5 @@
+Always use TypeScript for this project.
+Follow existing code patterns and conventions.
+Run tests before committing changes.
+Use descriptive commit messages.
+Prefer functional programming patterns where applicable.

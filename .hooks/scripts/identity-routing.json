@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "1.0.0",
+  "description": "Git identity routing: map provider+username to repo-local user.name/user.email. Edit routes for your remotes.",
+  "routes": [
+    {
+      "namespace": "github-example",
+      "host": "github.com",
+      "username": "YOUR_GITHUB_USERNAME",
+      "name": "YOUR_GITHUB_USERNAME",
+      "email": "YOUR_GITHUB_USERNAME@users.noreply.github.com"
+    }
+  ],
+  "provider_defaults": {
+    "github.com": {
+      "namespace": "github-default",
+      "name": "YOUR_GITHUB_USERNAME",
+      "email": "YOUR_GITHUB_USERNAME@users.noreply.github.com"
+    },
+    "codeberg.org": {
+      "namespace": "codeberg-default",
+      "name": "YOUR_CODEBERG_USERNAME",
+      "email": "YOUR_CODEBERG_USERNAME@users.noreply.codeberg.org"
+    }
+  },
+  "_setup": "Edit YOUR_* placeholders (or add routes), then run .hooks/scripts/setup-git-identity.sh"
+}

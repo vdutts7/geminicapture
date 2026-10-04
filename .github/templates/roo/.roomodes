@@ -1,0 +1,12 @@
+# .roomodes
+# Roo Code - Custom modes (YAML format)
+# Location: project root
+
+customModes:
+  - slug: my-mode
+    name: My Custom Mode
+    roleDefinition: |
+      You are an expert developer.
+    groups:
+      - read
+      - edit

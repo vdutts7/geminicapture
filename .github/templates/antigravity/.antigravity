@@ -1,0 +1,10 @@
+# Antigravity Configuration
+
+## Project Setup
+- Language: TypeScript
+- Framework: React/Next.js
+
+## Code Standards
+- Use ESLint and Prettier
+- Follow TypeScript strict mode
+- Write unit tests for new features

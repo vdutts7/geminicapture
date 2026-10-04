@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - name: code-style
+    description: Follow TypeScript best practices
+  - name: testing
+    description: Write tests for new features

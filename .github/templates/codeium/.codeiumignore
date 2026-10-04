@@ -1,0 +1,8 @@
+# .codeiumignore
+# Codeium - Files to exclude
+# Location: project root
+# Syntax: same as .gitignore
+
+node_modules/
+dist/
+.env

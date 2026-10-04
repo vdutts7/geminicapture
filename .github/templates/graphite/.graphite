@@ -1,0 +1,11 @@
+# Graphite Configuration
+
+## Branch Naming
+- feature/description
+- fix/description
+- chore/description
+
+## PR Guidelines
+- Keep PRs small and focused
+- Write descriptive titles
+- Include test coverage

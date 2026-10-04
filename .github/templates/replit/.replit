@@ -1,0 +1,17 @@
+run = "npm run dev"
+entrypoint = "src/index.ts"
+
+[nix]
+channel = "stable-24_05"
+
+[env]
+NODE_ENV = "development"
+
+[packager]
+language = "nodejs"
+
+[languages.typescript]
+pattern = "**/*.{ts,tsx}"
+
+[deployment]
+run = ["sh", "-c", "npm run start"]

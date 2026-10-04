@@ -1,0 +1,37 @@
+{
+  "source": "gemini.google.com",
+  "rpc": "hNvQHb",
+  "cid": "c_********",
+  "chat_hex": "****************",
+  "spa_url": "https://gemini.google.com/app/****************",
+  "turn_count": 1,
+  "message_count": 2,
+  "messages": [
+    {
+      "role": "user",
+      "content": "****",
+      "rid": "****",
+      "timestamp": "****"
+    },
+    {
+      "role": "assistant",
+      "content": "****",
+      "rid": "****",
+      "rcid": "****",
+      "timestamp": "****",
+      "completion_status": 2
+    }
+  ],
+  "turns_newest_first": [
+    {
+      "cid": "c_********",
+      "rid": "****",
+      "rcid": "****",
+      "user": "****",
+      "assistant": "****",
+      "thoughts": null,
+      "timestamp": "****",
+      "completion_status": 2
+    }
+  ]
+}

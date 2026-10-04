@@ -1,0 +1,17 @@
+# Continue Configuration
+# See: https://docs.continue.dev/customize/settings
+
+models:
+  - name: claude-3-5-sonnet
+    provider: anthropic
+    apiKey: $ANTHROPIC_API_KEY
+
+rules:
+  - Always use TypeScript
+  - Follow existing code patterns
+  - Write tests for new features
+
+prompts:
+  - name: review
+    description: Review code for issues
+    prompt: "Review this code for bugs, security issues, and improvements"

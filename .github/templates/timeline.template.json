@@ -1,0 +1,27 @@
+{
+  "_": "Timeline - your project's memory. AI will extend this as you work.",
+
+  "meta": {
+    "created": "",
+    "updated": "",
+    "author": ""
+  },
+
+  "status": "active",
+
+  "goal": "",
+
+  "entries": [
+    {
+      "ts": "",
+      "type": "start",
+      "note": ""
+    }
+  ],
+
+  "decisions": [],
+
+  "blockers": [],
+
+  "learnings": []
+}

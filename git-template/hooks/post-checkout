@@ -1,0 +1,10 @@
+#!/bin/sh
+# After clone/checkout: if this repo has .hooks and setup not run, print what to run.
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null)"
+[ -z "$ROOT" ] && exit 0
+[ ! -f "$ROOT/.hooks/scripts/setup.sh" ] && exit 0
+[ "$(git config core.hooksPath 2>/dev/null)" = ".hooks" ] && exit 0
+echo ""
+echo "  >>> Run: .hooks/scripts/setup.sh  (one-time per clone)"
+echo ""
+exit 0

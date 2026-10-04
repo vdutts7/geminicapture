@@ -1,0 +1,37 @@
+{
+  "source": "****",
+  "rpc": "****",
+  "cid": "****",
+  "chat_hex": "****",
+  "spa_url": "****",
+  "turn_count": 1,
+  "message_count": 2,
+  "messages": [
+    {
+      "role": "****",
+      "content": "****",
+      "rid": "****",
+      "timestamp": "****"
+    },
+    {
+      "role": "****",
+      "content": "****",
+      "rid": "****",
+      "rcid": "****",
+      "timestamp": "****",
+      "completion_status": 2
+    }
+  ],
+  "turns_newest_first": [
+    {
+      "cid": "****",
+      "rid": "****",
+      "rcid": "****",
+      "user": "****",
+      "assistant": "****",
+      "thoughts": null,
+      "timestamp": "****",
+      "completion_status": 2
+    }
+  ]
+}

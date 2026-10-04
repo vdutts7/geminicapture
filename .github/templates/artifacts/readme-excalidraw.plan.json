@@ -1,0 +1,190 @@
+{
+  "output": "readme-excalidraw.excalidraw",
+  "source": "excalidraw-skill templates + layout-patterns vertical_flow",
+  "bg": "#ffffff",
+  "elements": [
+    {
+      "kind": "template",
+      "ref": "blocks/title",
+      "id": "title",
+      "x": 40,
+      "y": -50,
+      "params": { "text": "__TITLE__" }
+    },
+    {
+      "kind": "zone",
+      "id": "z1",
+      "x": 0,
+      "y": 0,
+      "w": 1100,
+      "h": 260,
+      "palette": "zone_group",
+      "label": "1 · evaluate"
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/service_box",
+      "id": "T",
+      "x": 40,
+      "y": 70,
+      "params": { "label": "__START__", "role": "client_node" }
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/arrow_right",
+      "id": "a_tq",
+      "x": 260,
+      "y": 70,
+      "params": { "label": "__EDGE_1__", "stroke": "#1864ab" }
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/decision",
+      "id": "Q",
+      "x": 480,
+      "y": 70,
+      "params": { "label": "__DECISION_1__" }
+    },
+    {
+      "kind": "zone",
+      "id": "z2",
+      "x": 0,
+      "y": 300,
+      "w": 1100,
+      "h": 280,
+      "palette": "zone_group",
+      "label": "2 · act"
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/service_box",
+      "id": "P",
+      "x": 40,
+      "y": 360,
+      "params": { "label": "__YES_ACTION__", "role": "primary_node" }
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/service_box",
+      "id": "R",
+      "x": 440,
+      "y": 380,
+      "params": { "label": "__MERGE__", "role": "neutral_box" }
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/service_box",
+      "id": "H",
+      "x": 840,
+      "y": 360,
+      "params": { "label": "__NO_ACTION__", "role": "restricted_node" }
+    },
+    {
+      "kind": "arrow",
+      "id": "a_qp",
+      "x": 540,
+      "y": 190,
+      "dx": -390,
+      "dy": 230,
+      "elbow": true,
+      "stroke": "#2f9e44",
+      "label": "__YES_LABEL__",
+      "roughness": 0
+    },
+    {
+      "kind": "arrow",
+      "id": "a_qh",
+      "x": 620,
+      "y": 190,
+      "dx": 330,
+      "dy": 230,
+      "elbow": true,
+      "stroke": "#c92a2a",
+      "label": "__NO_LABEL__",
+      "roughness": 0
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/arrow_right",
+      "id": "a_pr",
+      "x": 260,
+      "y": 360,
+      "params": { "label": "", "stroke": "#2f9e44" }
+    },
+    {
+      "kind": "arrow",
+      "id": "a_hr",
+      "x": 840,
+      "y": 420,
+      "dx": -180,
+      "dy": 20,
+      "stroke": "#c92a2a",
+      "roughness": 0
+    },
+    {
+      "kind": "zone",
+      "id": "z3",
+      "x": 0,
+      "y": 620,
+      "w": 1100,
+      "h": 260,
+      "palette": "zone_group",
+      "label": "3 · resolve"
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/decision",
+      "id": "F",
+      "x": 40,
+      "y": 690,
+      "params": { "label": "__DECISION_2__" }
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/service_box",
+      "id": "D",
+      "x": 440,
+      "y": 690,
+      "params": { "label": "__PARTIAL_OUTCOME__", "role": "primary_node" }
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/service_box",
+      "id": "K",
+      "x": 840,
+      "y": 690,
+      "params": { "label": "__FAIL_OUTCOME__", "role": "restricted_node" }
+    },
+    {
+      "kind": "arrow",
+      "id": "a_rf",
+      "x": 550,
+      "y": 500,
+      "dx": -410,
+      "dy": 250,
+      "elbow": true,
+      "stroke": "#495057",
+      "roughness": 0
+    },
+    {
+      "kind": "template",
+      "ref": "blocks/arrow_right",
+      "id": "a_fd",
+      "x": 240,
+      "y": 690,
+      "params": { "label": "__PARTIAL_LABEL__", "stroke": "#2f9e44" }
+    },
+    {
+      "kind": "arrow",
+      "id": "a_fk",
+      "x": 240,
+      "y": 780,
+      "dx": 600,
+      "dy": -30,
+      "elbow": true,
+      "stroke": "#c92a2a",
+      "label": "__FAIL_LABEL__",
+      "roughness": 0
+    }
+  ]
+}

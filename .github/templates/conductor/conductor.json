@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "project": {
+    "name": "my-project",
+    "language": "typescript"
+  },
+  "rules": [
+    "Follow existing code patterns",
+    "Write tests for new features"
+  ]
+}

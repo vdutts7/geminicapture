@@ -1,0 +1,10 @@
+# Qoder Configuration
+
+## Project Context
+- Language: TypeScript
+- Framework: React/Next.js
+
+## Preferences
+- Use TypeScript strict mode
+- Follow existing patterns
+- Write comprehensive tests

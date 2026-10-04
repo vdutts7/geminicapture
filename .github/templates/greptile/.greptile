@@ -1,0 +1,10 @@
+# Greptile Configuration
+
+## Repository Context
+- Primary language: TypeScript
+- Framework: React/Next.js
+- Test framework: Jest
+
+## Code Standards
+- Follow ESLint rules
+- Use Prettier for formatting

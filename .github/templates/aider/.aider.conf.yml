@@ -1,0 +1,8 @@
+# .aider.conf.yml
+# Aider - Configuration
+# Location: project root or ~/.aider.conf.yml
+
+model: anthropic/claude-sonnet-4
+edit-format: diff
+auto-commits: false
+read: CONVENTIONS.md

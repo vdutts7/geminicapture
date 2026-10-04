@@ -1,0 +1,12 @@
+{
+  "name": "geminicapture",
+  "description": "Export your Gemini chat data from gemini.google.com - SPA canonical URL helper and cookie+HTTP conversation dump",
+  "author": "vdutts7",
+  "url": "https://github.com/vdutts7/geminicapture",
+  "site": "https://vd7.io/projects",
+  "topics": ["gemini", "google", "browserscript", "data-export", "api", "batchexecute"],
+  "remote": {
+    "prefer": "ssh",
+    "origin_url": "git@github.com:vdutts7/geminicapture.git"
+  }
+}

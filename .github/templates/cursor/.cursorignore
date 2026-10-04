@@ -1,0 +1,17 @@
+# .cursorignore
+# Cursor IDE - Files to exclude from indexing
+# Location: project root
+# Syntax: same as .gitignore
+
+# Other AI tools
+.windsurf/
+.codeium/
+.claude/
+.amazonq/
+.gemini/
+.kiro/
+.roo*/
+.cline/
+.aider*/
+.codex/
+.opencode/
